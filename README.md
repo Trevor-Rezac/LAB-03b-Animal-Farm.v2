@@ -23,3 +23,18 @@
 * Cypress will open -- you should then click "run <#> integration spec(s)"
     ![](cypress.png)
 * Make sure all tests pass
+
+
+## HTML Setup
+1. 3 images
+-Why? It tells us when to play an animal sound
+-how?? `myImage.addEventListener('click', () => {})`
+2. a way of doing audip >>> <audio src="">
+-Why? to play the sound on click (this is what our app does)
+-how? grab the audio tag from the DOM (just like any HTML element)
+then we do `dogSound.play()`
+
+## Event
+On click of the image:
+Play the right file.
+call the .play method on the right DOM element
