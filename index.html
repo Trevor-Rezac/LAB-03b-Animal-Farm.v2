@@ -14,25 +14,32 @@
     <link rel="stylesheet" href="./styles/style.css">
 
     <link rel="stylesheet" href="./styles/home.css">
-    <title>Document</title>
+    <title>Animal Farm</title>
 </head>
 
 <body>
     <header>
-        <div class="gutter-right logo">
-            <img src="assets/big-logo.png" />
-        </div>
+        <h2 id="animal-click"></h2>
     </header>
     <main>
+        <h3>Click each animal to hear them say hello!</h3>
         <section class="image-section">
             <audio src="./assets/dog.wav" id="dog-sound"></audio>
-            <img src="./assets/dog.jpeg" alt="dog image" id="dog-image" class="animal-image">
+            <figure>
+                <img src="./assets/dog.jpeg" alt="dog image" id="dog-image" class="animal-image">
+                    <figcaption>Press "d" for dog!</figcaption>
+            </figure>    
 
             <audio src="./assets/cat.wav" id="cat-sound"></audio>
-            <img src="./assets/cat.jpeg" alt="cat image" id="cat-image" class="animal-image">
-            
+            <figure>
+                <img src="./assets/cat.jpeg" alt="cat image" id="cat-image"     class="animal-image">
+                    <figcaption>Press "c" for cat!</figcaption>
+            </figure>
             <audio src="./assets/horse.wav" id="horse-sound"></audio>
-            <img src="./assets/horse.jpeg" alt="horse image" id="horse-image" class="animal-image">
+            <figure>
+                <img src="./assets/horse.jpeg" alt="horse image" id="horse-image" class="animal-image">
+                    <figcaption>Press "h" for horse!</figcaption>
+            </figure>
 
         </section>
     </main>
