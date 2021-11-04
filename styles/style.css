@@ -116,6 +116,9 @@ footer {
 img {
     border-radius: 10%;
     transition: transform .7s ease-in-out;
+    height: 150px;
+    width: 150px;
+    padding: 5px;
 }
 
 img:hover {
