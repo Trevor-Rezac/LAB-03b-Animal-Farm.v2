@@ -63,7 +63,7 @@ footer {
 
 
 h2 {
-    font-size: 1.8rem;
+    font-size: 1.5rem;
     font-weight: bold;
 }
 
@@ -112,3 +112,13 @@ footer {
     }
 
   }
+
+img {
+    border-radius: 10%;
+    transition: transform .7s ease-in-out;
+}
+
+img:hover {
+    cursor: pointer;
+    transform: rotate(360deg);
+}
